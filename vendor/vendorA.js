@@ -10,6 +10,12 @@ export const getVendorA = (req, res) => {
         nm_brg: "Kripik Singkong 200g",
         hrg: "10000",
         ket_stok: "ada"
+    },
+    {
+        kd_produk: "A003",
+        nm_brg: "Teh Celup 25pcs",
+        hrg: "8000",
+        ket_stok: "habis"
     }
 ];
     res.json(data);
