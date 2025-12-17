@@ -3,9 +3,9 @@ import axios from 'axios';
 export async function getIntegratorData(req, res) {
     try {
         const [resA, resB, resC] = await Promise.all([
-            axios.get(`https://simulator-marketplace.vercel.app/api/vendor-a`),
-            axios.get(`https://simulator-marketplace.vercel.app/api/vendor-b`),
-            axios.get(`https://simulator-marketplace.vercel.app/api/vendor-c`),
+            axios.get(`http://localhost:3000/api/vendor-a`),
+            axios.get(`http://localhost:3000/api/vendor-b`),
+            axios.get(`http://localhost:3000/api/vendor-c`),
         ]);
         const dataA = resA.data;
         const dataB = resB.data;
