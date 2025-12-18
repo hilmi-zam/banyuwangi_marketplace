@@ -10,6 +10,18 @@ export const getVendorC = (req, res) => {
             "tax": 2000
         },
         "stock": 50
+    },
+    {
+        "id": 502,
+        "details": {
+            "name": "Lumpia Goreng",
+            "category": "Food"
+        },
+        "pricing": {
+            "base_price": 15000,
+            "tax": 1500
+        },
+        "stock": 75
     }];
     res.json(data);
 }
