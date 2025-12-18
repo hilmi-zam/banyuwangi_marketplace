@@ -46,6 +46,18 @@ export const getVendorC = (req, res) => {
             "tax": 1200
         },
         "stock": 100
+    },
+    {
+        "id": 505,
+        "details": {
+            "name": "Es Cendol",
+            "category": "Beverage"
+        },
+        "pricing": {
+            "base_price": 8000,
+            "tax": 800
+        },
+        "stock": 80
     }];
     res.json(data);
 }
