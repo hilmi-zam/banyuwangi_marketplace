@@ -22,6 +22,18 @@ export const getVendorC = (req, res) => {
             "tax": 1500
         },
         "stock": 75
+    },
+    {
+        "id": 503,
+        "details": {
+            "name": "Soto Ayam",
+            "category": "Food"
+        },
+        "pricing": {
+            "base_price": 18000,
+            "tax": 1800
+        },
+        "stock": 60
     }];
     res.json(data);
 }
