@@ -34,6 +34,18 @@ export const getVendorC = (req, res) => {
             "tax": 1800
         },
         "stock": 60
+    },
+    {
+        "id": 504,
+        "details": {
+            "name": "Tahu Goreng",
+            "category": "Food"
+        },
+        "pricing": {
+            "base_price": 12000,
+            "tax": 1200
+        },
+        "stock": 100
     }];
     res.json(data);
 }
