@@ -58,6 +58,18 @@ export const getVendorC = (req, res) => {
             "tax": 800
         },
         "stock": 80
+    },
+    {
+        "id": 506,
+        "details": {
+            "name": "Martabak Telur",
+            "category": "Food"
+        },
+        "pricing": {
+            "base_price": 25000,
+            "tax": 2500
+        },
+        "stock": 40
     }];
     res.json(data);
 }
