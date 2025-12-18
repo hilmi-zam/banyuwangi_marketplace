@@ -10,6 +10,12 @@ export const getVendorB = (req, res) => {
         "productName": "Mug Banyuwangi",
         "price": "45000",
         "isAvailable": true
+    },
+    {
+        "sku": "SOUV-003",
+        "productName": "Souvenir Khas Banyuwangi",
+        "price": "25000",
+        "isAvailable": true
     }];
     res.json(data);
 }
