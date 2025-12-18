@@ -16,6 +16,12 @@ export const getVendorB = (req, res) => {
         "productName": "Souvenir Khas Banyuwangi",
         "price": "25000",
         "isAvailable": true
+    },
+    {
+        "sku": "BAG-004",
+        "productName": "Tas Krama Banyuwangi",
+        "price": "120000",
+        "isAvailable": false
     }];
     res.json(data);
 }
