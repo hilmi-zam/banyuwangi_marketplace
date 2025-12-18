@@ -4,6 +4,12 @@ export const getVendorB = (req, res) => {
         "productName": "Kaos Ijen Crater",
         "price": "75000",
         "isAvailable": true
+    },
+    {
+        "sku": "MUG-002",
+        "productName": "Mug Banyuwangi",
+        "price": "45000",
+        "isAvailable": true
     }];
     res.json(data);
 }
