@@ -46,8 +46,18 @@ export const getVendorC = (req, res) => {
             "tax": 1200
         },
         "stock": 100
-    },
-    {
+    },    {
+        "id": 505,
+        "details": {
+            "name": "Perkedel",
+            "category": "Food"
+        },
+        "pricing": {
+            "base_price": 10000,
+            "tax": 1000
+        },
+        "stock": 80
+    },    {
         "id": 505,
         "details": {
             "name": "Es Cendol",
