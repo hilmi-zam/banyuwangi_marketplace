@@ -61,7 +61,7 @@ export async function getIntegratorData(req, res) {
                 nama: productName,
                 harga_final: price , // WAJIB Number / Integer 
                 status: statusStok , // WAJIB String seragam
-                sumber: "Vendor B"
+                sumber: "Vendor C"
             };
         });
         
