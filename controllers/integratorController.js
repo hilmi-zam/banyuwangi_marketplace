@@ -13,7 +13,7 @@ export async function getIntegratorData(req, res) {
 
         const normalizedDataA = dataA.map(item => {
             const price = parseInt(item.hrg);
-            const finalPriceAfterDiscount = price * 0.1; // diskon 10%
+            const finalPriceAfterDiscount = price - (price * 0.1); // diskon 10%
             let statusStok = "Tidak Tersedia";
             if(item.ket_stok == "ada") {
                 statusStok = "Tersedia";
